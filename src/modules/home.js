@@ -211,7 +211,7 @@ function showCelebrationPopup() {
 
   // Event listener for "Go to Cart" button
   document.getElementById("goToCart").addEventListener("click", () => {
-    window.location.href = "/cart"; // Redirect to the cart page
+    window.location.href = "/src/pages/Cart/index.html"; // Redirect to the cart page
   });
 
   // Event listener for "See Other Products" button
