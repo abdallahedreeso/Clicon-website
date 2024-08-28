@@ -13,9 +13,26 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1>Clicon E-commerce</h1>
+    <h1 class="text-4xl font-bold">Clicon E-commerce</h1>
 
     <a href="../Login/index.html">Login</a>
+
+    <div id="showAllProducts" class="home bg-white">
+      <div
+        class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8"
+      >
+        <h2 class="text-2xl font-bold tracking-tight text-gray-900">
+          Our new Products
+        </h2>
+
+        <div
+          class="cards-container mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8"
+        ></div>
+      </div>
+    </div>
+
+    <!-- Show product details -->
+    <div id="showProductDetails" class="hidden mt-28"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script type="module" src="../../modules/home.js"></script>
